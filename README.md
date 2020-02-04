@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Based on <https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11437120>
+
+Section 7
+
 ## Available Scripts
 
 In the project directory, you can run:
