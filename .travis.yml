@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t ericsoucy/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true ericsoucy/docker-react npm run test
